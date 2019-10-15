@@ -58,7 +58,7 @@ function buttonPress(button)
 
 function makeSound(sound)
 {
-  var audio = new Audio("sounds/" + sound + ".mp3");
+  var audio = new Audio(sound + ".mp3");
   audio.play();
 }
 
